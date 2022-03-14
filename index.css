@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(160, 160, 160);
+}
+
+.MainPage {
+    background:rgb(207, 207, 207) center center no-repeat;
+    width: 50%;
+    height: 15cm;
+    margin: 10px auto;
+}
+
+.MainImage{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.SocialMediaLists {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.SocialMediaButton{
+    transition: .5s ease;
+    float: left;
+    padding-left: 20px;
+    
+}
+
+.SocMedButton {
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+
+.SocMedButton:hover{
+    opacity: 0.3;
+}
